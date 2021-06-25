@@ -1,0 +1,70 @@
+:root {
+  --gold: #FFEE55;
+  --silver: #CCCCCC;
+  --bronze: #B87838;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background: lightgrey;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+input {
+  width: 90%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+select {
+  margin: 5px;
+}
+
+.head {
+  position: fixed;
+  width: 100%;
+  background: white;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+.body {
+  padding: 10px;
+  padding-top: 155px;
+}
+
+.title, .subtitle {
+  text-align: center;
+  font-size: 24px;
+}
+
+.subtitle {
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  border: 1px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}

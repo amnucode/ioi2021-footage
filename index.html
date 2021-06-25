@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>IOI 2021 | Contest Footage</title>
+  <meta name="author" content="AMnu">
+  <meta name="description" content="dynamic scoreboard of IOI 2021">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="head">
+    <div class="title">IOI 2021 Contest Footage</div>
+    <div class="subtitle" id="time"></div>
+    <input type="range" id="control" min="0" max="1" onInput="change()">
+    <div class="container">
+      <div class="button" id="play" onClick="play()">Play</div>
+      <div class="button" id="show" onClick="show()">Hide Medal</div>
+      <select id="rank" onChange="change()" autoComplete="off">
+        <option value="0">Global</option>
+        <option value="1">Day 1</option>
+        <option value="2">Day 2</option>
+      </select>
+    </div>
+  </div>
+  <div class="body">
+    <table id="scoreboard"></table>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
